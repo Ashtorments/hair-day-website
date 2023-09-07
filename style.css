@@ -1,0 +1,48 @@
+/* Center the logo */
+header img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px; /* Adjust the margin as needed */
+}
+
+/* Set up the flexbox layout for the main content */
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Style the columns in the main content */
+.column {
+    flex: 1;
+    margin: 10px; /* Adjust the margin as needed */
+    padding: 20px; /* Add padding for spacing */
+    border: 1px solid #ccc; /* Add a border for separation */
+}
+
+/* Set up the flexbox layout for the footer */
+footer {
+    display: flex;
+    justify-content: space-between; /* Separate left and right columns */
+    align-items: center; /* Vertically align content */
+}
+
+/* Style the footer columns */
+.footer-left {
+    flex: 1;
+    text-align: left;
+}
+
+.footer-right {
+    flex: 1;
+    text-align: right;
+}
